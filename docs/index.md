@@ -35,6 +35,32 @@ If you use this dataset in your research, please cite the following paper:
 
 # THE DATASET
 
+
+
+
+## Multi-Light
+
+<div markdown="1" style="overflow-x:scroll;">
+<div markdown="1" style="min-width:800px;">
+
+| All spotlights                                        |
+
+| ![Alt text](assets\images\multilight\image_0.jpg "0") | 
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
 <div class="hero has-text-centered" id="dataset">
 <div class="myWrapper" markdown="1" align="center">
 
