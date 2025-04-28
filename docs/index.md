@@ -36,9 +36,13 @@ If you use this dataset in your research, please cite the following paper:
 # THE DATASET
 
 
-
+<div class="hero has-text-centered" id="dataset">
+<div class="myWrapper" markdown="1" align="center">
 
 ## Data Acquisition
+
+
+
 
 <div markdown="1" style="overflow-x:scroll;">
 <div markdown="1" style="min-width:800px;">
@@ -61,8 +65,7 @@ If you use this dataset in your research, please cite the following paper:
 
 
 
-<div class="hero has-text-centered" id="dataset">
-<div class="myWrapper" markdown="1" align="center">
+
 
 ## Ten Object Classes / Twenty Sub-Object Classes
 十张gif，每个gif包含两类照片
