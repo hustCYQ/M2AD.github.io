@@ -68,7 +68,7 @@ If you use this dataset in your research, please cite the following paper:
 ## Multi-View
 
 <div markdown="1" style="overflow-x:scroll;">
-<div markdown="1" style="min-width:800px;">
+<div markdown="1" style="min-width:400px;">
 
 | All spotlights         | Bottom spot       | Right spot            | Top spot         | Left spot       | Global light box           | Global light box          | Global light box          |
 | --------------------------- | -------------------------------- | ------------------------------- | ---------------------------------- | -------------------------- | -------------------- | ---------------------- | ---------------------- |
