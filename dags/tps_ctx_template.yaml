@@ -1,0 +1,27 @@
+data:
+  root: # the root folder of the Eyecandies dataset
+  name: # the name of the category to train on
+  image_size: 256
+  test_sets:
+    - public
+    - private
+result_folder: # the output folder
+training:
+  repeat: 1
+  batch: 64
+  nproc: 4 # multi-processing
+  prefetch: 2 # prefetch of each worker
+  device: cuda
+  epochs: 10
+  lr: 0.001
+predict:
+  batch: 64
+  nproc: 4 # multi-processing
+  prefetch: 2 # prefetch of each worker
+  device: cuda
+metrics:
+  nbins: 100
+  px_maxfpr:
+  img_maxfpr:
+  nproc: 0 # multi-processing
+  prefetch: 2 # prefetch of each worker

@@ -1,0 +1,4 @@
+ec-get:
+  category: $var(data.name)
+  output: $var(data.root)
+  skip_existing: true

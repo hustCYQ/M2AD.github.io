@@ -1,0 +1,53 @@
+nodes:
+  $for(categories, cat):
+    $item(cat)_train:
+      map:
+        input: $var(paths.eyecandies_root)/$item(cat)/train
+        output: $var(paths.output_root)/$item(cat)/train
+        stage: &_op_filter
+          filter-keys:
+            key_list: ["$var(items.image_key, default=image_5)"]
+        grabber: &_grabber
+          num_workers: $var(nproc, default=0)
+          prefetch: $var(prefetch, default=2)
+    $item(cat)_val:
+      map:
+        input: $var(paths.eyecandies_root)/$item(cat)/val
+        output: $var(paths.output_root)/$item(cat)/val
+        stage: *_op_filter
+        grabber: *_grabber
+    $item(cat)_test_private:
+      map:
+        input: $var(paths.eyecandies_root)/$item(cat)/test_private
+        output: $var(paths.output_root)/$item(cat)/test_private
+        stage: *_op_filter
+        grabber: *_grabber
+    $item(cat)_test_public_splits:
+      split-query:
+        input: $var(paths.eyecandies_root)/$item(cat)/test_public
+        query: "`metadata.anomalous` == 0"
+        output_selected: $tmp()/$item(cat)_test_public_good
+        output_discarded: $tmp()/$item(cat)_test_public_bad
+        grabber: *_grabber
+    $item(cat)_test_public_good:
+      map:
+        input: $tmp()/$item(cat)_test_public_good
+        output: $var(paths.output_root)/$item(cat)/test_public_good
+        stage: *_op_filter
+        grabber: *_grabber
+    $item(cat)_test_public_bad:
+      map:
+        input: $tmp()/$item(cat)_test_public_bad
+        output: $var(paths.output_root)/$item(cat)/test_public_bad
+        stage: *_op_filter
+        grabber: *_grabber
+    $item(cat)_test_public_mask:
+      map:
+        input: $tmp()/$item(cat)_test_public_bad
+        output: $var(paths.output_root)/$item(cat)/test_public_mask
+        stage:
+          remap-key:
+            remap:
+              $var(items.mask_key, default=mask): $var(items.image_key, default=image_5)
+            remove_missing: true
+        grabber: *_grabber

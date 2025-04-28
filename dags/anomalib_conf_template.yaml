@@ -1,0 +1,29 @@
+$for(categories, cat):
+  $item(cat):
+    dataset:
+      format: folder
+      name: Eyecandies
+      path: $var(paths.output_root)/$item(cat)
+      normal_dir: train
+      abnormal_dir: test_public_bad
+      normal_test_dir: test_public_good
+      mask: $var(paths.output_root)/$item(cat)/test_public_mask/data
+      extensions:
+      split_ratio: 0
+      image_size: $var(anomalib.image_size, default=256)
+      category: $item(cat)
+      task: segmentation
+      train_batch_size: $var(anomalib.train_batch_size, default=64)
+      test_batch_size: $var(anomalib.test_batch_size, default=64)
+      num_workers: $var(anomalib.num_workers, default=4)
+      transform_config:
+        train: $var(anomalib.train_transform_config, default=None)
+        val: null
+      create_validation_set: false
+      tiling:
+        apply: false
+        tile_size: null
+        stride: null
+        remove_border_count: 0
+        use_random_tiling: False
+        random_tile_count: 16

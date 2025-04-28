@@ -1,0 +1,41 @@
+---
+layout: compress
+---
+
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+
+<body>
+  {% include navbar.html %}
+  {% include showcase.html %}
+  {% include body.html %}
+  <!-- {% include about.html %} -->
+  {% include contact.html %}
+  <!--Footer begins here-->
+  {% include footer.html %}
+</body>
+<script>
+  var navItems = document.getElementsByClassName('navbar-item');
+  var heroes = document.getElementsByClassName('hero');
+  const viewOffset = 200;
+
+  window.addEventListener("scroll", function (event) {
+    var scroll = this.scrollY;
+    var position = window.pageYOffset;
+
+    for (var i = 0; i < navItems.length; i++) {
+      navItems[i].classList.remove('is-active');
+    }
+    var cur_top = 0;
+    for (var i = 0; i < heroes.length; i++) {
+      cur_top += heroes[i].offsetHeight;
+      if (cur_top > position) {
+        navItems[i + 1].classList.add('is-active');
+        break;
+      }
+    }
+  });
+</script>
+
+</html>

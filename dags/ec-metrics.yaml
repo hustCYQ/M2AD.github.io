@@ -1,0 +1,13 @@
+ec-metrics:
+  predictions: $var(result_folder)/autoenc/$var(data.name)/$date('%Y-%m-%d_%H-%M-%S')_test_public
+  targets: $var(data.root)/$var(data.name)/test_public
+  output_folder: $var(result_folder)/autoenc/$var(data.name)
+  output_prefix: $date('%Y-%m-%d_%H-%M-%S')_test_public_
+  heatmap_key: heatmap
+  mask_key: mask
+  nbins: $var(metrics.nbins, default=100)
+  pixel_auroc_max_fpr: $var(metrics.px_maxfpr, default=0.3)
+  image_auroc_max_fpr: $var(metrics.img_maxfpr, default=0.3)
+  grabber:
+    num_workers: $var(metrics.nproc, default=0)
+    prefetch: $var(metrics.prefetch, default=2)

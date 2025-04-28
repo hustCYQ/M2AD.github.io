@@ -1,0 +1,19 @@
+categories: # the list of categories to convert
+  - CandyCane
+  - ChocolateCookie
+  - ChocolatePraline
+  - Confetto
+  - GummyBear
+  - HazelnutTruffle
+  - LicoriceSandwich
+  - Lollipop
+  - Marshmallow
+  - PeppermintCandy
+paths:
+  eyecandies_root: # the path to the Eyecandies dataset root folder
+  output_root: # the path to the output dataset root folder
+nproc: 0 # multi-processing
+prefetch: 2 # prefetch of each worker
+items:
+  image_key: # the key of the image item to use for anomalib, e.g., image_5
+  mask_key: mask # key of the mask to use for anomalib (mask is the sum of all defects)

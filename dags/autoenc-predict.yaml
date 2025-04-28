@@ -1,0 +1,14 @@
+autoenc-predict:
+  test_dataset: $var(data.root)/$var(data.name)/test_$item
+  ckpt: $var(result_folder)/autoenc/$var(data.name)/$date('%Y-%m-%d_%H-%M-%S').ckpt
+  predictions: $var(result_folder)/autoenc/$var(data.name)/$date('%Y-%m-%d_%H-%M-%S')_test_$item
+  dataloader:
+    batch_size: $var(predict.batch, default=32)
+    shuffle: false
+    num_workers: $var(predict.nproc, default=4)
+    drop_last: false
+    prefecth: $var(predict.prefetch, default=2)
+  device: $var(predict.device, default=cuda)
+  image_key: image_0
+  image_size: $var(data.image_size, default=256)
+  image_channels: 3

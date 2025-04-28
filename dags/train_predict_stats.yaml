@@ -1,0 +1,7 @@
+nodes:
+  train: $import("autoenc-train.yaml")
+
+  $for(data.test_sets):
+    predict_$item: $import("autoenc-predict.yaml")
+
+  stats: $import("ec-metrics.yaml")

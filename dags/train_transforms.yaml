@@ -1,0 +1,31 @@
+__version__: 1.2.1
+transform:
+  __class_fullname__: Compose
+  additional_targets: {}
+  bbox_params: null
+  keypoint_params: null
+  p: 1.0
+  transforms:
+    - __class_fullname__: ShiftScaleRotate
+      always_apply: false
+      p: 0.9
+      shift_limit: 0.05
+      rotate_limit: 45
+      scale_limit: 0.1
+      border_mode: 0
+      value: 0
+    - __class_fullname__: ColorJitter
+      always_apply: false
+      p: 0.9
+      brightness:
+        - 0.8
+        - 1.2
+      contrast:
+        - 0.8
+        - 1.2
+      hue:
+        - -0.2
+        - 0.2
+      saturation:
+        - 0.8
+        - 1.2

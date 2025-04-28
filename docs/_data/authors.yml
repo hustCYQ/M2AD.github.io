@@ -1,0 +1,15 @@
+- name: Luca Bonfiglioli
+  email: luca.bonfiglioli@eyecan.ai
+  pic: assets\images\authors\bonfiglioli.jpg
+- name: Marco Toschi
+  email: marco.toschi@eyecan.ai
+  pic: assets\images\authors\toschi.jpg
+- name: Davide Silvestri
+  email: davide.silvestri@eyecan.ai
+  pic: assets\images\authors\silvestri.jpg
+- name: Nicola Fioraio
+  email: nicola.fioraio@eyecan.ai
+  pic: assets\images\authors\fioraio.jpg
+- name: Daniele De Gregorio
+  email: daniele.degregorio@eyecan.ai
+  pic: assets\images\authors\degregorio.jpg
