@@ -74,6 +74,8 @@ If you use this dataset in your research, please cite the following paper:
 | ----------------------------------------------------- | ----------------------------------------------------- | ----------------------------------------------------- | ----------------------------------------------------- | ----------------------------------------------------- | ----------------------------------------------------- |
 | ![Alt text](assets\images\multilight\image_0.jpg "0") | ![Alt text](assets\images\multilight\image_1.jpg "1") | ![Alt text](assets\images\multilight\image_2.jpg "2") | ![Alt text](assets\images\multilight\image_3.jpg "3") | ![Alt text](assets\images\multilight\image_4.jpg "4") | ![Alt text](assets\images\multilight\image_5.jpg "5") |
 
+<!-- this space is essential -->
+
 | All spotlights                                        | Bottom spot                                           | Right spot                                            | Top spot                                              | Left spot                                             | Global light box                                      |
 | ----------------------------------------------------- | ----------------------------------------------------- | ----------------------------------------------------- | ----------------------------------------------------- | ----------------------------------------------------- | ----------------------------------------------------- |
 | ![Alt text](assets\images\multilight\image_0.jpg "0") | ![Alt text](assets\images\multilight\image_1.jpg "1") | ![Alt text](assets\images\multilight\image_2.jpg "2") | ![Alt text](assets\images\multilight\image_3.jpg "3") | ![Alt text](assets\images\multilight\image_4.jpg "4") | ![Alt text](assets\images\multilight\image_5.jpg "5") |
@@ -87,10 +89,16 @@ If you use this dataset in your research, please cite the following paper:
 <div markdown="1" style="overflow-x:scroll;">
 <div markdown="1" style="min-width:800px;">
 
-| All spotlights                                        | Bottom spot                                           | Right spot                                            | Top spot                                              | Left spot                                             | Global light box                                      |
-| ----------------------------------------------------- | ----------------------------------------------------- | ----------------------------------------------------- | ----------------------------------------------------- | ----------------------------------------------------- | ----------------------------------------------------- |
-| ![Alt text](assets\images\multilight\image_0.jpg "0") | ![Alt text](assets\images\multilight\image_1.jpg "1") | ![Alt text](assets\images\multilight\image_2.jpg "2") | ![Alt text](assets\images\multilight\image_3.jpg "3") | ![Alt text](assets\images\multilight\image_4.jpg "4") | ![Alt text](assets\images\multilight\image_5.jpg "5") |
+| Candy Cane      | Chocolate Cookie      | Chocolate Praline      | Confetto      | Gummy Bear      |
+| ------------------------------ | ------------------------------------------------ | ----------------------------------------- | --------------------------- | --------------- |
+| ![Alt text](assets\images\rgb_gifs\candy_cane.gif "candy cane") | ![Alt text](assets\images\rgb_gifs\chocolate_cookie.gif "chocolate cookie") | ![Alt text](assets\images\rgb_gifs\chocolate_praline.gif "chocolate_praline") | ![Alt text](assets\images\rgb_gifs\confetto.gif "confetto") | ![Alt text](assets\images\rgb_gifs\gummy_bear.gif "gummy_bear") |
 
+
+<!-- this space is essential -->
+
+| Hazelnut Truffle                                                            | Licorice Sandwich                                                              | Lollipop                                                    | Marshmallow                                                       | Peppermint Candy                                                            |
+| --------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | ----------------------------------------------------------- | ----------------------------------------------------------------- | --------------------------------------------------------------------------- |
+| ![Alt text](assets\images\rgb_gifs\hazelnut_truffle.gif "hazelnut_truffle") | ![Alt text](assets\images\rgb_gifs\licorice_sandwich.gif "licorice_sandwitch") | ![Alt text](assets\images\rgb_gifs\lollipop.gif "lollipop") | ![Alt text](assets\images\rgb_gifs\marshmallow.gif "marshmallow") | ![Alt text](assets\images\rgb_gifs\peppermint_candy.gif "peppermint candy") |
 
 </div>
 </div>
