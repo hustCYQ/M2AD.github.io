@@ -45,7 +45,7 @@ To set up the M2AD benchmark environment, follow one of the methods below:
 
 
 ### Dataset Preparation 
-You can choose to download **original** datasets and process them according to **Preprocess**. You are also welcome to directly download our **processed** datasets. All datasets need to be placed in your `DATA_ROOT`. 
+Welcome to directly download our **processed** datasets. All datasets need to be placed in your `DATA_ROOT`. Then skip to **Train & Test**
 
 | Dataset | Google Drive | Baidu Drive | Note
 |------------|------------------|------------------| ------------------|
@@ -53,15 +53,40 @@ You can choose to download **original** datasets and process them according to *
 | M2AD-256    | [Google Drive] | [Baidu Drive](https://pan.baidu.com/s/1OUoZA8hW8FoYBom5PP4WxQ?pwd=pwus) | Original |
 
 
-- preprare data, adjust data/dataset_info
+Check your data struct
+```
+M2AD_1024
+├── Bird
+    ├── Good
+        ├── 000
+        ├── 001
+        ...
+    ├── GT
+        ├── damage_1_001
+        ├── damage_1_002
+        ...
+    ├── NG
+        ├── damage_1_001
+        ├── damage_1_002
+        ...
+├── Car
+...
+```
+
+- If you want to re-prepare data, adjust data/dataset_info
   ```shell
   python gen_meta_data.py -d miv    
   ```
 
 
 ### Train & Test
+There are five SOTA methods ([CDO](),[Dinomaly](),[InpFormer](),[MSFlow](),[RD++]())prepared, which can be called directly by:
 ```
-python run_exps.py
+python run_dataset.py -c configs/benchmark/cdo/cdo_100e.py
+python run_dataset.py -c configs/benchmark/dinomaly/dinomaly_100e.py
+python run_dataset.py -c configs/benchmark/inpformer/inpformer_100e.py
+python run_dataset.py -c configs/benchmark/msflow/msflow_100e.py
+python run_dataset.py -c configs/benchmark/rdpp/rdpp_256_100e.py
 ```
 
 ## Main Results
@@ -89,12 +114,7 @@ If you find this project helpful for your research, please consider citing the f
 
 ```BibTex
 
-@inproceedings{PCLIP,
-  title={Towards Zero-shot Point Cloud Anomaly Detection: A Multi-View Projection Framework},
-  author={Yuqi, Cheng and Yunkang, Cao and Guoyang, Xie and Zhichao, Lu and Weiming, Shen},
-  booktitle={},
-  year={2024}
-}
+XXXX
 
 ```
 
