@@ -22,7 +22,7 @@ Detecting anomalies within point clouds is crucial for various industrial applic
 ## 🛠️ Getting Started
 
 ### Installation
-To set up the MVP-PVLIP environment, follow one of the methods below:
+To set up the M2AD benchmark environment, follow one of the methods below:
 
 - Clone this repo:
   ```shell
