@@ -80,7 +80,7 @@ M2AD_1024
 
 
 ### Train & Test
-There are five SOTA methods ([CDO](),[Dinomaly](),[InpFormer](),[MSFlow](),[RD++]())prepared, which can be called directly by:
+There are five SOTA methods ([CDO](), [Dinomaly](), [InpFormer](), [MSFlow](), [RD++]())prepared, which can be called directly by:
 ```
 python run_dataset.py -c configs/benchmark/cdo/cdo_100e.py
 python run_dataset.py -c configs/benchmark/dinomaly/dinomaly_100e.py
