@@ -11,11 +11,11 @@ title: M2AD Dataset
 # Description of the Site
 description: A Multi-View and Multi-Illumination Dataset For Anomaly Detection
 # URL of Image of the Site
-site-image: website/assets/images/eyecan.png
+site-image: website/assets/images/LOGO.png
 # Keywords of the Site
-site-keywords: Eyecandies, Dataset, Deep Learning, Anomaly Detection
+site-keywords: M2AD, Dataset, Deep Learning, Anomaly Detection
 # URL for the Image of custom Favicon
-favicon-url: https://avatars.githubusercontent.com/u/63446686?v=4
+favicon-url: https://github.com/hustCYQ/M2AD/blob/main/docs/assets/images/LOGO.png
 
 # URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
 # heroimage: https://github.com/eyecan-ai/eyecandies/blob/main/docs/assets/images/eyecandies_hero.jpg?raw=true
