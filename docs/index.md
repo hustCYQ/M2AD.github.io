@@ -125,22 +125,13 @@ If you use this dataset in your research, please cite the following paper:
 
 # LEADERBOARD
 
-<div class="hero" id="leaderboard" markdown="1">
-<div markdown="1" style="overflow-x: scroll;">
-| Method | Bird      | Car      | Cube     | Dice     | Doll    | Holder     | Motor      | Ring       | Teapot       | Tube        |
-| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | ---: |
-| Header | Title | Here's this | Here's this | Here's this | Here's this | Here's this | Here's this | Here's this | Here's this | Here's this |
-| Paragraph | Text | And more | Here's this | Here's this | Here's this | Here's this | Here's this | Here's this | Here's this | Here's this |
-
-<br>
-<div class="myWrapper" align="left" markdown="1">
-
 
     
 <div markdown="1" style="overflow-x:scroll;">
 <div markdown="1" style="min-width:400px;">
 
-| Bird      | Car      | Cube      | Dice      | Doll      | Bird      | Car      | Cube      | Dice      | Doll      |
+| Method | Bird      | Car      | Cube     | Dice     | Doll    | Holder     | Motor      | Ring       | Teapot       | Tube        |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | Header | Title | Here's this | Here's this | Here's this | Here's this | Here's this | Here's this | Here's this | Here's this | Here's this |
 | Header | Title | Here's this | Here's this | Here's this | Here's this | Here's this | Here's this | Here's this | Here's this | Here's this |
 | Header | Title | Here's this | Here's this | Here's this | Here's this | Here's this | Here's this | Here's this | Here's this | Here's this |
