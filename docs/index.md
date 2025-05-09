@@ -14,19 +14,18 @@ layout: default
 ***Yunkang Cao\*, Yuqi Cheng\*, Xiaohao Xu, Yiheng Zhang, Yihan Sun, Yuxiang Tan, Yuxin Zhang, Weiming Shen***<br>
 Huazhong University of Science and Technology *\* Equal contribution*
 
-The practical deployment of Visual Anomaly Detection (VAD) systems is hindered by their sensitivity to real-world imaging variations, particularly the complex interplay between viewpoint and illumination which drastically alters defect visibility. Current benchmarks largely overlook this critical challenge. We introduce **M**ulti-View **M**ulti-Illumination **A**nomaly **D**etection (M^2^AD), a new large-scale benchmark comprising 119,880 high-resolution images designed explicitly to probe VAD robustness under such interacting conditions. By systematically capturing 1,000 specimens across 10 categories using 12 synchronized views and 10 illumination settings (120 configurations total), M2AD enables rigorous evaluation. We establish two evaluation protocols: \datasetS{} tests the ability to fuse information across diverse configurations, and \datasetI{} measures single-image robustness amidst realistic view-illumination effects. Our extensive benchmarking shows that state-of-the-art VAD methods struggle significantly on \dataset{}, demonstrating the profound challenge posed by view-illumination interplay. This benchmark serves as an essential tool for developing and validating VAD methods capable of overcoming real-world complexities.
+The practical deployment of Visual Anomaly Detection (VAD) systems is hindered by their sensitivity to real-world imaging variations, particularly the complex interplay between viewpoint and illumination which drastically alters defect visibility. Current benchmarks largely overlook this critical challenge. We introduce **M**ulti-View **M**ulti-Illumination **A**nomaly **D**etection (***M<sup>2</sup>AD***), a new large-scale benchmark comprising 119,880 high-resolution images designed explicitly to probe VAD robustness under such interacting conditions. By systematically capturing 1,000 specimens across 10 categories using 12 synchronized views and 10 illumination settings (120 configurations total), ***M<sup>2</sup>AD*** enables rigorous evaluation. We establish two evaluation protocols: ***M<sup>2</sup>AD-Synergy*** tests the ability to fuse information across diverse configurations, and ***M<sup>2</sup>AD-Invariant*** measures single-image robustness amidst realistic view-illumination effects. Our extensive benchmarking shows that state-of-the-art VAD methods struggle significantly on ***M<sup>2</sup>AD***, demonstrating the profound challenge posed by view-illumination interplay. This benchmark serves as an essential tool for developing and validating VAD methods capable of overcoming real-world complexities.
 
 ### Cite Us
 
 If you use this dataset in your research, please cite the following paper:
 
 ```
-@inproceedings{bonfiglioli2022eyecandies,
-    title={The Eyecandies Dataset for Unsupervised Multimodal Anomaly Detection and Localization},
-    author={Bonfiglioli, Luca and Toschi, Marco and Silvestri, Davide and Fioraio, Nicola and De Gregorio, Daniele},
-    booktitle={Proceedings of the 16th Asian Conference on Computer Vision (ACCV2022},
-    note={ACCV},
-    year={2022},
+@inproceedings{M2AD,
+    title={Visual Anomaly Detection under Complex View-Illumination Interplay: A Large-Scale Benchmark},
+    author={XXX},
+    booktitle={Arxiv},
+    year={2025},
 }
 ```
 
