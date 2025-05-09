@@ -154,6 +154,7 @@ Please send an e-mail to **yuqicheng@hust.edu.cn** with subject "results of {You
 
 - The full **name**/s of your method/s.
 - A link to a published **paper** describing it/them.
+- A **csv or xlsx** file with detailed results.
 
 Feel free to ask us any questions!
 
