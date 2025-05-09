@@ -51,16 +51,16 @@ If you use this dataset in your research, please cite the following paper:
 <div markdown="1" style="overflow-x:scroll;">
 <div markdown="1" style="min-width:800px;">
 
-| Candy Cane      | Chocolate Cookie      | Chocolate Praline      | Confetto      | Gummy Bear      |
+| Bird      | Car      | Cube      | Dice      | Doll      |
 | ------------------------------ | ------------------------------------------------ | ----------------------------------------- | --------------------------- | --------------- |
-| ![Alt text](assets\images\rgb_gifs\candy_cane.gif "candy cane") | ![Alt text](assets\images\rgb_gifs\chocolate_cookie.gif "chocolate cookie") | ![Alt text](assets\images\rgb_gifs\chocolate_praline.gif "chocolate_praline") | ![Alt text](assets\images\rgb_gifs\confetto.gif "confetto") | ![Alt text](assets\images\rgb_gifs\gummy_bear.gif "gummy_bear") |
+| ![Alt text](assets\images\Obj_gif\bird.gif "bird") | ![Alt text](assets\images\Obj_gif\car.gif "car") | ![Alt text](assets\images\Obj_gif\cube.gif "cube") | ![Alt text](assets\images\Obj_gif\dice.gif "dice") | ![Alt text](assets\images\Obj_gif\doll.gif "doll") |
 
 
 <!-- this space is essential -->
 
-| Hazelnut Truffle                                                            | Licorice Sandwich                                                              | Lollipop                                                    | Marshmallow                                                       | Peppermint Candy                                                            |
+| Holder       | Motor          | Ring           | teapot           | Tube             |
 | --------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | ----------------------------------------------------------- | ----------------------------------------------------------------- | --------------------------------------------------------------------------- |
-| ![Alt text](assets\images\rgb_gifs\hazelnut_truffle.gif "hazelnut_truffle") | ![Alt text](assets\images\rgb_gifs\licorice_sandwich.gif "licorice_sandwitch") | ![Alt text](assets\images\rgb_gifs\lollipop.gif "lollipop") | ![Alt text](assets\images\rgb_gifs\marshmallow.gif "marshmallow") | ![Alt text](assets\images\rgb_gifs\peppermint_candy.gif "peppermint candy") |
+| ![Alt text](assets\images\Obj_gif\holder.gif "holder") | ![Alt text](assets\images\Obj_gif\motor.gif "motor") | ![Alt text](assets\images\Obj_gif\ring.gif "ring") | ![Alt text](assets\images\Obj_gif\teapot.gif "teapot") | ![Alt text](assets\images\Obj_gif\tube.gif "tube") |
 
 </div>
 </div>
