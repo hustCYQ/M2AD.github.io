@@ -68,15 +68,17 @@ If you use this dataset in your research, please cite the following paper:
 <div markdown="1" style="overflow-x:scroll;">
 <div markdown="1" style="min-width:100px;">
 
-| View-0°                                        | View-30°                                            | View-60°                                             | View-90°                                              | View-120°                                             | View-150° x                                      |
-| ----------------------------------------------------- | ----------------------------------------------------- | ----------------------------------------------------- | ----------------------------------------------------- | ----------------------------------------------------- | ----------------------------------------------------- |
-| ![Alt text](assets\images\multilight\image_0.jpg "0") | ![Alt text](assets\images\multilight\image_1.jpg "1") | ![Alt text](assets\images\multilight\image_2.jpg "2") | ![Alt text](assets\images\multilight\image_3.jpg "3") | ![Alt text](assets\images\multilight\image_4.jpg "4") | ![Alt text](assets\images\multilight\image_5.jpg "5") |
+| Bird      | Car      | Cube      | Dice      | Doll      |
+| ------------------------------ | ------------------------------------------------ | ----------------------------------------- | --------------------------- | --------------- |
+| ![Alt text](assets\images\MV_gif\bird.gif "bird") | ![Alt text](assets\images\MV_gif\car.gif "car") | ![Alt text](assets\images\MV_gif\cube.gif "cube") | ![Alt text](assets\images\MV_gif\dice.gif "dice") | ![Alt text](assets\images\MV_gif\doll.gif "doll") |
+
 
 <!-- this space is essential -->
 
-| View-180°                                         | View-210°                                            | View-240°                                             | View-270°                                               | View-300°                                              | View-330°                                       |
-| ----------------------------------------------------- | ----------------------------------------------------- | ----------------------------------------------------- | ----------------------------------------------------- | ----------------------------------------------------- | ----------------------------------------------------- |
-| ![Alt text](assets\images\multilight\image_0.jpg "0") | ![Alt text](assets\images\multilight\image_1.jpg "1") | ![Alt text](assets\images\multilight\image_2.jpg "2") | ![Alt text](assets\images\multilight\image_3.jpg "3") | ![Alt text](assets\images\multilight\image_4.jpg "4") | ![Alt text](assets\images\multilight\image_5.jpg "5") |
+| Holder       | Motor          | Ring           | Teapot           | Tube             |
+| --------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | ----------------------------------------------------------- | ----------------------------------------------------------------- | --------------------------------------------------------------------------- |
+| ![Alt text](assets\images\MV_gif\holder.gif "holder") | ![Alt text](assets\images\MV_gif\motor.gif "motor") | ![Alt text](assets\images\MV_gif\ring.gif "ring") | ![Alt text](assets\images\MV_gif\teapot.gif "teapot") | ![Alt text](assets\images\MV_gif\tube.gif "tube") |
+
 
 </div>
 </div>
@@ -87,16 +89,16 @@ If you use this dataset in your research, please cite the following paper:
 <div markdown="1" style="overflow-x:scroll;">
 <div markdown="1" style="min-width:800px;">
 
-| Illumination-1      | Illumination-2      | Illumination-3      | Illumination-4      | Illumination-5      |
+| Bird      | Car      | Cube      | Dice      | Doll      |
 | ------------------------------ | ------------------------------------------------ | ----------------------------------------- | --------------------------- | --------------- |
-| ![Alt text](assets\images\rgb_gifs\candy_cane.gif "candy cane") | ![Alt text](assets\images\rgb_gifs\chocolate_cookie.gif "chocolate cookie") | ![Alt text](assets\images\rgb_gifs\chocolate_praline.gif "chocolate_praline") | ![Alt text](assets\images\rgb_gifs\confetto.gif "confetto") | ![Alt text](assets\images\rgb_gifs\gummy_bear.gif "gummy_bear") |
+| ![Alt text](assets\images\MI_gif\bird.gif "bird") | ![Alt text](assets\images\MI_gif\car.gif "car") | ![Alt text](assets\images\MI_gif\cube.gif "cube") | ![Alt text](assets\images\MI_gif\dice.gif "dice") | ![Alt text](assets\images\MI_gif\doll.gif "doll") |
 
 
 <!-- this space is essential -->
 
-| Illumination-6      | Illumination-7      | Illumination-8      | Illumination-9      | Illumination-10      |
+| Holder       | Motor          | Ring           | Teapot           | Tube             |
 | --------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | ----------------------------------------------------------- | ----------------------------------------------------------------- | --------------------------------------------------------------------------- |
-| ![Alt text](assets\images\rgb_gifs\hazelnut_truffle.gif "hazelnut_truffle") | ![Alt text](assets\images\rgb_gifs\licorice_sandwich.gif "licorice_sandwitch") | ![Alt text](assets\images\rgb_gifs\lollipop.gif "lollipop") | ![Alt text](assets\images\rgb_gifs\marshmallow.gif "marshmallow") | ![Alt text](assets\images\rgb_gifs\peppermint_candy.gif "peppermint candy") |
+| ![Alt text](assets\images\MI_gif\holder.gif "holder") | ![Alt text](assets\images\MI_gif\motor.gif "motor") | ![Alt text](assets\images\MI_gif\ring.gif "ring") | ![Alt text](assets\images\MI_gif\teapot.gif "teapot") | ![Alt text](assets\images\MI_gif\tube.gif "tube") |
 
 </div>
 </div>
@@ -107,15 +109,16 @@ If you use this dataset in your research, please cite the following paper:
 <div markdown="1" style="min-width:800px;">
 
 | Bird      | Car      | Cube      | Dice      | Doll      |
-| ----------------------------------------------------------------- | ----------------------------------------------------------------------------- | ------------------------------------------------------------------------------- | ------------------------------------------------------------- | ----------------------------------------------------------------- |
-| ![Alt text](assets\images\light_gifs\candy_cane.gif "candy cane") | ![Alt text](assets\images\light_gifs\chocolate_cookie.gif "chocolate cookie") | ![Alt text](assets\images\light_gifs\chocolate_praline.gif "chocolate_praline") | ![Alt text](assets\images\light_gifs\confetto.gif "confetto") | ![Alt text](assets\images\light_gifs\gummy_bear.gif "gummy_bear") |
+| ------------------------------ | ------------------------------------------------ | ----------------------------------------- | --------------------------- | --------------- |
+| ![Alt text](assets\images\MIV_gif\bird.gif "bird") | ![Alt text](assets\images\MIV_gif\car.gif "car") | ![Alt text](assets\images\MIV_gif\cube.gif "cube") | ![Alt text](assets\images\MIV_gif\dice.gif "dice") | ![Alt text](assets\images\MIV_gif\doll.gif "doll") |
 
 
 <!-- this space is essential -->
 
 | Holder       | Motor          | Ring           | Teapot           | Tube             |
-| ----------------------------------------------------------------------------- | -------------------------------------------------------------------------------- | ------------------------------------------------------------- | ------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
-| ![Alt text](assets\images\light_gifs\hazelnut_truffle.gif "hazelnut_truffle") | ![Alt text](assets\images\light_gifs\licorice_sandwich.gif "licorice_sandwitch") | ![Alt text](assets\images\light_gifs\lollipop.gif "lollipop") | ![Alt text](assets\images\light_gifs\marshmallow.gif "marshmallow") | ![Alt text](assets\images\light_gifs\peppermint_candy.gif "peppermint candy") |
+| --------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | ----------------------------------------------------------- | ----------------------------------------------------------------- | --------------------------------------------------------------------------- |
+| ![Alt text](assets\images\MIV_gif\holder.gif "holder") | ![Alt text](assets\images\MIV_gif\motor.gif "motor") | ![Alt text](assets\images\MIV_gif\ring.gif "ring") | ![Alt text](assets\images\MIV_gif\teapot.gif "teapot") | ![Alt text](assets\images\MIV_gif\tube.gif "tube") |
+
 
 </div>
 </div>
