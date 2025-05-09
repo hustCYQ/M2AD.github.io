@@ -15,8 +15,7 @@ site-image: website/assets/images/LOGO.png
 # Keywords of the Site
 site-keywords: M2AD, Dataset, Deep Learning, Anomaly Detection
 # URL for the Image of custom Favicon
-favicon-url: https://github.com/hustCYQ/M2AD/blob/main/docs/assets/images/LOGO.png
-
+favicon-url: https://raw.githubusercontent.com/hustCYQ/M2AD/main/docs/assets/images/LOGO.png
 # URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
 # heroimage: https://github.com/eyecan-ai/eyecandies/blob/main/docs/assets/images/eyecandies_hero.jpg?raw=true
 # heroimage: https://github.com/eyecan-ai/eyecandies/blob/main/docs/assets/images/eyecandies_hero_downscaled.jpg?raw=true
