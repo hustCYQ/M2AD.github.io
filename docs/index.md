@@ -56,7 +56,7 @@ If you use this dataset in your research, please cite the following paper:
 
 <!-- this space is essential -->
 
-| Holder       | Motor          | Ring           | teapot           | Tube             |
+| Holder       | Motor          | Ring           | Teapot           | Tube             |
 | --------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | ----------------------------------------------------------- | ----------------------------------------------------------------- | --------------------------------------------------------------------------- |
 | ![Alt text](assets\images\Obj_gif\holder.gif "holder") | ![Alt text](assets\images\Obj_gif\motor.gif "motor") | ![Alt text](assets\images\Obj_gif\ring.gif "ring") | ![Alt text](assets\images\Obj_gif\teapot.gif "teapot") | ![Alt text](assets\images\Obj_gif\tube.gif "tube") |
 
@@ -113,7 +113,7 @@ If you use this dataset in your research, please cite the following paper:
 
 <!-- this space is essential -->
 
-| Holder       | Motor          | Ring           | teapot           | Tube             |
+| Holder       | Motor          | Ring           | Teapot           | Tube             |
 | ----------------------------------------------------------------------------- | -------------------------------------------------------------------------------- | ------------------------------------------------------------- | ------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
 | ![Alt text](assets\images\light_gifs\hazelnut_truffle.gif "hazelnut_truffle") | ![Alt text](assets\images\light_gifs\licorice_sandwich.gif "licorice_sandwitch") | ![Alt text](assets\images\light_gifs\lollipop.gif "lollipop") | ![Alt text](assets\images\light_gifs\marshmallow.gif "marshmallow") | ![Alt text](assets\images\light_gifs\peppermint_candy.gif "peppermint candy") |
 
@@ -125,6 +125,18 @@ If you use this dataset in your research, please cite the following paper:
 
 # LEADERBOARD
 
+<div class="hero" id="leaderboard" markdown="1">
+<div markdown="1" style="overflow-x: scroll;">
+| Syntax | Description | Test Text |
+| :--- | :----: | ---: |
+| Header | Title | Here's this |
+| Paragraph | Text | And more |
+
+<br>
+<div class="myWrapper" align="left" markdown="1">
+
+
+    
 <div class="hero" id="leaderboard" markdown="1">
 <div markdown="1" style="overflow-x: scroll;">
 <table>
