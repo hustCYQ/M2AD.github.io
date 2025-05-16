@@ -41,7 +41,7 @@ If you use this dataset in your research, please cite the following paper:
 ## Data Acquisition
 
 
-![Alt text](assets\images\multilight\image_0.jpg "0")
+![Alt text](assets\images\collection.gif "0")
 
 
 
